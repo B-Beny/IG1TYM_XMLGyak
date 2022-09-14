@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk_4xm_2jb" nev="alex">
+            <cim>Miskolc, Egyetem út 1.</cim>
+            <szuildo>1989.06.14</szuildo>
+        </rendezo>
+        <szinesz id="u5q_4xm_2jb" nev="Madison_Ty"/>
+        <iro id="trv_4xm_2jb">
+            <operator id="sdu_4xm_2jb" nev="Jimmy M McGill"/>
+            <dramaturg id="ork_4xm_2jb" nev="Chuck M McGill"/>
+        </iro>
+    </film>
+</mozi>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<BB_orarend>
+    <ora id="01" tipus="Elmélet">
+        <targy>WEB Technológiák</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>8:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>XXX A1 III. em. 305</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="02" tipus="Gyakorlat">
+        <targy>WEB Technológiák</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>Inf 103</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="03" tipus="Elmélet">
+        <targy>Mesterséges Intelligencia Alapjai</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>9:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>II A2 mfsz.</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="04" tipus="Gyakorlat">
+        <targy>Mesterséges Intelligencia Alapjai</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>14:00</tol>
+            <ig>15:00</ig>
+        </idopont>
+        <helyszin>Inf 15</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="05" tipus="Elmélet">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>XXXII A1 magasfsz.</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="06" tipus="Gyakorlat">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>Inf/101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="07" tipus="Elm+Gyak">
+        <targy>Algoritmusok és Vizsgálatuk</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>X A1 II.em 218</helyszin>
+        <oktato>Dr. Házy Attila</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="08" tipus="Elm+Gyak">
+        <targy>Vállalati Információs Rendszerek</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16:00</tol>
+            <ig>20:00</ig>
+        </idopont>
+        <helyszin>Inf 103</helyszin>
+        <oktato>Dr. Sasvári Péter</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+</BB_orarend>
