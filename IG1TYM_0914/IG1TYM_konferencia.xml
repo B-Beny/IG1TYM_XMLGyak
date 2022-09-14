@@ -3,17 +3,17 @@
 <Konferencia>
     <cim>Kémiai Kristály-Kötések</cim>
     <hallgatok>
-        <hallgato>
+        <hallgato id="01">
             <nev>Saul Goodman</nev>
             <lakcim>Miskolc, Egyetem út 23.</lakcim>
         </hallgato>
 
-        <hallgato>
+        <hallgato id="02">
             <nev>Kimberly Wexler</nev>
             <lakcim>Ózd, Vasvár út 135.</lakcim>
         </hallgato>
 
-        <hallgato>
+        <hallgato id="03">
             <nev>Charles McGill</nev>
             <lakcim>Miskolc, Egyetem út 1.</lakcim>
         </hallgato>
