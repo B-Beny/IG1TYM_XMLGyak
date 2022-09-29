@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE BB_adatbazis
+[
+<!ELEMENT BB_adatbazis (dolgozo)>
+<!ELEMENT dolgozo (nev,fizetes)>
+    <!ATTLIST dolgozo 
+    kod CDATA #REQUIRED
+    >
+
+    <!ELEMENT nev (#PCDATA)>
+    <!ELEMENT fizetes (#PCDATA)>
+]
+>
+
+<BB_adatbazis>
+    <dolgozo kod="01">
+        <nev>Lajos</nev>
+        <fizetes>300000</fizetes>
+    </dolgozo>
+</BB_adatbazis>
