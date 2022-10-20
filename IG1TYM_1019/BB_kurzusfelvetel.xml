@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE BB_kurzusfelvetel SYSTEM "BB_kurzusfelvetel.dtd"> -->
+
+<BB_kurzusfelvetel tanev="2022/2023I" egyetem="ME"> <!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BB_kurzusfelvetel.xsd"> -->
+
+    <hallgato id="IG1TYM.ME">
+        <hnev>Bettes Benjámin László</hnev>
+        <szulev>2002-01-09</szulev>
+        <szak evf="3">Programtervezo Informatikus</szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="GEIK-01">
+            <kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII.</hely>
+            <idopont>Kedd 12:00-13:30</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+
+        <kurzus id="GEIK-02" jovahagyas="igen">
+            <kurzusnev>WebTechnológiák I.</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXV.</hely>
+            <idopont>Hétfő 8:00-9:30</idopont>
+            <oktato>Agárdi Anita</oktato>
+        </kurzus>
+
+        <kurzus id="GEIK-03" nyelv="angol">
+            <kurzusnev>Mesterséges Intelligencia Alapok</kurzusnev>
+            <kredit>5</kredit>
+            <hely>II.</hely>
+            <idopont>Kedd 9:00-11:15</idopont>
+            <oktato>Kunné Dr. Tamás Judit</oktato>
+        </kurzus>
+
+        <kurzus id="GEIK-04">
+            <kurzusnev>Vállalati és Információs Rendszerek</kurzusnev>
+            <kredit>5</kredit>
+            <hely>Inf. 103</hely>
+            <idopont>Szerda 16:00-19:00</idopont>
+            <oraado>Piller Imre</oraado>
+        </kurzus>
+    </kurzusok>
+
+</BB_kurzusfelvetel>
