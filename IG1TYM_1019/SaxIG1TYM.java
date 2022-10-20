@@ -74,7 +74,7 @@ class SaxHandler extends DefaultHandler
     {
         indent++;
         indent();
-        System.out.println(qName + formatAttributes(attributes) + "start");
+        System.out.println(qName + formatAttributes(attributes) + " start");
     }
 
     @Override
