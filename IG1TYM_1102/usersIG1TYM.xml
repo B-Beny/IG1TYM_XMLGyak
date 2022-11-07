@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+    <user id="1">
+        <firstname>Benjamin</firstname>
+        <lastname>Bettes</lastname>
+        <profession>Computer Science</profession>
+    </user>
+
+    <user id="2">
+        <firstname>Gordon</firstname>
+        <lastname>Ramsay</lastname>
+        <profession>Chef</profession>
+    </user>
+
+    <user id="3">
+        <firstname>Saul</firstname>
+        <lastname>Goodman</lastname>
+        <profession>Attorney at law</profession>
+    </user>
+</users>
