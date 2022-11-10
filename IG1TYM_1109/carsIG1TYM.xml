@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<cars>
+    <supercars>
+        <carname type = "formula one">F-2004</carname>
+        <carname type = "sports">Ferrari Enzo</carname>
+    </supercars>
+
+    <supercars company = "Lamborghini">
+        <carname>Lamborghini Gallardo</carname>
+        <carname>Lamborghini Murcielago</carname>
+        <carname>Lamborghini Reventón</carname>
+    </supercars>
+
+    <luxurycars company = "Bentley">
+        <carname>Bentley Continental GT</carname>
+        <carname>Bentley Mulsanne</carname>
+        <carname>Bentley Bentayga</carname>
+    </luxurycars>
+</cars>
