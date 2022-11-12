@@ -51,7 +51,7 @@ public class xPathIG1TYM
             //String expression = "/class/[@>=1]";
             //String expression = "/descendant-or-self::";
             //String expression = "/class/student[20<kor]";
-            String expression = "/class/student/keresztnev | /class/student/vezetknev";
+            String expression = "/class/student/keresztnev | /class/student/vezeteknev";
 
             // Készítsünk egy listát, majd a xPath kifejezést le kell fordítani és ki kell értékelni
             NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
@@ -61,7 +61,7 @@ public class xPathIG1TYM
             {
                 Node node = nodeList.item(i);
 
-                System.out.println("\nAktuálsi elem: " + node.getNodeName());
+                System.out.println("\nAktuális elem: " + node.getNodeName());
 
                 // Meg kell vizsgálni a csomópontot, tesztelni kell a subelemet
                 if (node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals("student"))
