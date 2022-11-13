@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="tetoTipus">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="van" />
+            <xs:enumeration value="nincs" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Egyszerű típusok - Felépítés -->
+
+    <xs:element name="gepjarmu-felepites">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="auto" maxOccurs="unbounded" />
+                <xs:element name="gyarto" maxOccurs="unbounded" />
+                <xs:element name="modell" maxOccurs="unbounded" />
+                <xs:element name="motor" maxOccurs="unbounded" />
+                <xs:element name="gyartja" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+
+        <!-- Kulcsok -->
+        <xs:key name="auto_kulcs">
+            <xs:selector xpath="auto" />
+            <xs:field xpath="@alvazszam" />
+        </xs:key>
+
+        <xs:key name="gyarto_kulcs">
+            <xs:selector xpath="gyarto" />
+            <xs:field xpath="@adoszam" />
+        </xs:key>
+
+        <xs:key name="modell_kulcs">
+            <xs:selector xpath="modell" />
+            <xs:field xpath="@nev" />
+        </xs:key>
+
+        <xs:key name="motor_kulcs">
+            <xs:selector xpath="motor" />
+            <xs:field xpath="@motorkod" />
+        </xs:key>
+        
+        <!-- Idegen kulcsok -->
+
+        <xs:keyref refer="auto_kulcs" name="auto_idegen_kulcs">
+            <xs:selector xpath="gyartja" />
+            <xs:field xpath="@Aut_Gyart_Aut" />
+        </xs:keyref>
+
+        <xs:keyref refer="gyarto_kulcs" name="gyarto_idegen_kulcs">
+            <xs:selector xpath="gyartja" />
+            <xs:field xpath="@Aut_Gyart_Gyart" />
+        </xs:keyref>
+
+        <xs:keyref refer="modell_kulcs" name="modell_auto_idegen_kulcs">
+            <xs:selector xpath="auto" />
+            <xs:field xpath="@Aut_Mod" />
+        </xs:keyref>
+
+        <xs:keyref refer="auto_kulcs" name="auto_motor_idegen_kulcs">
+            <xs:selector xpath="motor" />
+            <xs:field xpath="@Mot_Aut" />
+        </xs:keyref>
+
+        <xs:keyref refer="gyarto_kulcs" name="gyarto_motor_idegen_kulcs">
+            <xs:selector xpath="motor" />
+            <xs:field xpath="@Mot_Gyart" />
+        </xs:keyref>
+
+    </xs:element>
+
+    <xs:element name="auto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nev" type="xs:string" />
+                <xs:element name="tomeg" type="xs:integer" />
+                <xs:element name="szin" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="teljesitmeny" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="gyarto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nev" type="xs:string" />
+                <xs:element name="cim">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="orszag" type="xs:string" />
+                            <xs:element name="iranyitoszam" type="xs:integer" />
+                            <xs:element name="telepules" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="modell">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ajtok_szama" type="xs:integer" />
+                <xs:element name="csomagtarto_meret" type="xs:integer" />
+                <xs:element name="lehajthato_teto" type="tetoTipus" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="motor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="alaprajz">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="hengerurtartalom" type="xs:integer" />
+                            <xs:element name="hengerelrendezes" type="xs:integer" />
+                            <xs:element name="hengerek_szama" type="xs:integer" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="uzemanyag" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="nyomatek" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="gyartja">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="evjarat" type="xs:integer" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

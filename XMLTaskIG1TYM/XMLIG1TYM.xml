@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gepjarmu-felepites xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="XSDIG1TYM.xsd">
+    
+    <!-- Autók -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <auto alvazszam="01" Aut_Mod="3-Door Hatchback">
+        <nev>Sprinter Trueno GT-Apex</nev>
+        <tomeg>970</tomeg>
+        <szin>Panda</szin>
+        <szin>Yellow</szin>
+        <szin>Wine Metallic</szin>
+        <szin>White Metallic</szin>
+        <teljesitmeny>123 HP</teljesitmeny>
+    </auto>
+
+    <auto alvazszam="02" Aut_Mod="5-Door Hatchback">
+        <nev>206 Profil</nev>
+        <tomeg>1100</tomeg>
+        <szin>Indigo Blue</szin>
+        <szin>Rogue Red</szin>
+        <szin>Vert Green</szin>
+        <teljesitmeny>60 HP</teljesitmeny>
+    </auto>
+
+    <auto alvazszam="03" Aut_Mod="Coupe">
+        <nev>Skyline GTR R34</nev>
+        <tomeg>1560</tomeg>
+        <szin>Bayside Blue</szin>
+        <szin>Midnight Purple</szin>
+        <szin>Millenium Jade</szin>
+        <szin>Lightning Yellow</szin>
+        <szin>Active Red</szin>
+        <szin>Pearl White</szin>
+        <teljesitmeny>276 HP</teljesitmeny>
+    </auto>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- Gyártók -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <gyarto adoszam="123">
+        <nev>Toyota</nev>
+        <cim>
+            <orszag>Japán</orszag>
+            <iranyitoszam>1234</iranyitoszam>
+            <telepules>Toiota</telepules>
+        </cim>
+    </gyarto>
+
+    <gyarto adoszam="124">
+        <nev>Peugeot</nev>
+        <cim>
+            <orszag>Franciaország</orszag>
+            <iranyitoszam>1235</iranyitoszam>
+            <telepules>Párizs</telepules>
+        </cim>
+    </gyarto>
+
+    <gyarto adoszam="125">
+        <nev>Nissan</nev>
+        <cim>
+            <orszag>Japán</orszag>
+            <iranyitoszam>1326</iranyitoszam>
+            <telepules>Yokohama</telepules>
+        </cim>
+    </gyarto>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- Modellek -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <modell nev="3-Door Hatchback">
+        <ajtok_szama>3</ajtok_szama>
+        <csomagtarto_meret>280</csomagtarto_meret>
+        <lehajthato_teto>Nincs</lehajthato_teto>
+    </modell>
+
+    <modell nev="5-Door Hatchback">
+        <ajtok_szama>5</ajtok_szama>
+        <csomagtarto_meret>237</csomagtarto_meret>
+        <lehajthato_teto>Nincs</lehajthato_teto>
+    </modell>
+
+    <modell nev="Coupe">
+        <ajtok_szama>2</ajtok_szama>
+        <csomagtarto_meret>315</csomagtarto_meret>
+        <lehajthato_teto>Nincs</lehajthato_teto>
+    </modell>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- Motorok -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <motor motorkod="4A-GE" Mot_Aut="01" Mot_Gyart="123">
+        <alaprajz>
+            <hengerurtartalom>1598</hengerurtartalom>
+            <hengerelrendezes>I</hengerelrendezes>
+            <hengerek_szama>4</hengerek_szama>
+        </alaprajz>
+        <uzemanyag>95 Benzin E10</uzemanyag>
+        <uzemanyag>98 Benzin E5</uzemanyag>
+        <uzemanyag>100 Benzin E5</uzemanyag>
+        <nyomatek>92 kW</nyomatek>
+    </motor>
+
+    <motor motorkod="TU1JP" Mot_Aut="02" Mot_Gyart="124">
+        <alaprajz>
+            <hengerurtartalom>1110</hengerurtartalom>
+            <hengerelrendezes>I</hengerelrendezes>
+            <hengerek_szama>4</hengerek_szama>
+        </alaprajz>
+        <uzemanyag>95 Benzin E10</uzemanyag>
+        <uzemanyag>98 Benzin E5</uzemanyag>
+        <uzemanyag>100 Benzin E5</uzemanyag>
+        <nyomatek>44 kW</nyomatek>
+    </motor>
+
+    <motor motorkod="RB26DETT" Mot_Aut="03" Mot_Gyart="125">
+        <alaprajz>
+            <hengerurtartalom>2600</hengerurtartalom>
+            <hengerelrendezes>I</hengerelrendezes>
+            <hengerek_szama>6</hengerek_szama>
+        </alaprajz>
+        <uzemanyag>95 Benzin E10</uzemanyag>
+        <uzemanyag>98 Benzin E5</uzemanyag>
+        <uzemanyag>100 Benzin E5</uzemanyag>
+        <nyomatek>206 kW</nyomatek>
+    </motor>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- Gyártja kapcsoló -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <gyartja Aut_Gyart_Aut="01" Aut_Gyart_Gyart="123">
+        <evjarat>1986</evjarat>
+    </gyartja>
+
+    <gyartja Aut_Gyart_Aut="02" Aut_Gyart_Gyart="124">
+        <evjarat>2000</evjarat>
+    </gyartja>
+
+    <gyartja Aut_Gyart_Aut="03" Aut_Gyart_Gyart="125">
+        <evjarat>2002</evjarat>
+    </gyartja>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+</gepjarmu-felepites>

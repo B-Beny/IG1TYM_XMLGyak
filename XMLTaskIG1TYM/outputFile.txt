@@ -1,0 +1,125 @@
+Gyökér elem: gepjarmu-felepites
+
+Jelenlegi elem: auto
+Alvázszám: 01
+Név: Sprinter Trueno GT-Apex
+Tömeg: 970
+Elérhetõ színek: 
+Panda
+Yellow
+Wine Metallic
+White Metallic
+Teljesítmény: 123 HP
+
+Jelenlegi elem: auto
+Alvázszám: 02
+Név: 206 Profil
+Tömeg: 1100
+Elérhetõ színek: 
+Indigo Blue
+Rogue Red
+Vert Green
+Teljesítmény: 60 HP
+
+Jelenlegi elem: auto
+Alvázszám: 03
+Név: Skyline GTR R34
+Tömeg: 1560
+Elérhetõ színek: 
+Bayside Blue
+Midnight Purple
+Millenium Jade
+Lightning Yellow
+Active Red
+Pearl White
+Teljesítmény: 276 HP
+
+Jelenlegi elem: gyarto
+Adószám: 123
+Név: Toyota
+Cím: 
+Ország: Japán
+Irányítószám: 1234
+Település:Toiota
+
+Jelenlegi elem: gyarto
+Adószám: 124
+Név: Peugeot
+Cím: 
+Ország: Franciaország
+Irányítószám: 1235
+Település:Párizs
+
+Jelenlegi elem: gyarto
+Adószám: 125
+Név: Nissan
+Cím: 
+Ország: Japán
+Irányítószám: 1326
+Település:Yokohama
+
+Jelenlegi elem: modell
+Név: 3-Door Hatchback
+Ajtók száma: 3
+Csomagtartó mérete: 280
+Lehajtható tetõ:Nincs
+
+Jelenlegi elem: modell
+Név: 5-Door Hatchback
+Ajtók száma: 5
+Csomagtartó mérete: 237
+Lehajtható tetõ:Nincs
+
+Jelenlegi elem: modell
+Név: Coupe
+Ajtók száma: 2
+Csomagtartó mérete: 315
+Lehajtható tetõ:Nincs
+
+Jelenlegi elem: motor
+Motorkód: 4A-GE
+Alaprajz: 
+Hengerûrtartalom: 1598
+Hengerelrendezés: I
+Hengerek száma:4
+Üzemanyagok: 
+95 Benzin E10
+98 Benzin E5
+100 Benzin E5
+
+Jelenlegi elem: motor
+Motorkód: TU1JP
+Alaprajz: 
+Hengerûrtartalom: 1110
+Hengerelrendezés: I
+Hengerek száma:4
+Üzemanyagok: 
+95 Benzin E10
+98 Benzin E5
+100 Benzin E5
+
+Jelenlegi elem: motor
+Motorkód: RB26DETT
+Alaprajz: 
+Hengerûrtartalom: 2600
+Hengerelrendezés: I
+Hengerek száma:6
+Üzemanyagok: 
+95 Benzin E10
+98 Benzin E5
+100 Benzin E5
+
+Jelenlegi elem: gyartja
+Autó alvázszám: 01
+Gyártó adószám: 123
+Évjárat: 1986
+
+Jelenlegi elem: gyartja
+Autó alvázszám: 02
+Gyártó adószám: 124
+Évjárat: 2000
+
+Jelenlegi elem: gyartja
+Autó alvázszám: 03
+Gyártó adószám: 125
+Évjárat: 2002
