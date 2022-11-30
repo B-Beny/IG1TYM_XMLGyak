@@ -1,0 +1,72 @@
+{ "_id": "IG1TYM" 
+    "vizsgak":{
+        "vizsga":[
+            {
+                "kurzus" : "Optimalizálás",
+                "helyszin" : "XXXVII. Előadó",
+                "idopont" :{
+                    "nap" : "Szerda",
+                    "tol" : "10:00",
+                    "ig" : "12:00"
+                },
+                "oktato" : "Dr. Körei Attila",
+                "jegy" : 4
+            },
+            {
+                "kurzus" : "Automaták és formális nyelvek",
+                "helyszin" : "XX. Előadó",
+                "idopont" :{
+                    "nap" : "Kedd",
+                    "tol" : "8:10",
+                    "ig" : "10:10"
+                },
+                "oktato" : "Dr. Radeleczki Sándor",
+                "jegy" : 5
+            },
+            {
+                "kurzus" : "Számítógép grafika",
+                "helyszin" : "III. Előadó",
+                "idopont" :{
+                    "nap" : "Szerda",
+                    "tol" : "10:00",
+                    "ig" : "12:00"
+                },
+                "oktato" : "Dr. Juhász Imre",
+                "jegy" : 4
+            },
+            {
+                "kurzus" : "Numerikus analízis",
+                "helyszin" : "XXX. Előadó",
+                "idopont" :{
+                    "nap" : "Kedd",
+                    "tol" : "12:00",
+                    "ig" : "14:00"
+                },
+                "oktato" : "Dr. Karácsony Zsolt",
+                "jegy" : 4
+            },
+            {
+                "kurzus" : "Matematikai statisztika",
+                "helyszin" : "XVIII. Előadó",
+                "idopont" :{
+                    "nap" : "Hétfő",
+                    "tol" : "12:00",
+                    "ig" : "14:00"
+                },
+                "oktato" : "Dr. Karácsony Zsolt",
+                "jegy" : 5
+            },
+            {
+                "kurzus" : "Párhuzamos algoritmusok",
+                "helyszin" : "XVIII. Előadó",
+                "idopont" :{
+                    "nap" : "Szerda",
+                    "tol" : "12:00",
+                    "ig" : "14:00"
+                },
+                "oktato" : "Piller Imre",
+                "jegy" : 5
+            }
+        ]
+    }
+}

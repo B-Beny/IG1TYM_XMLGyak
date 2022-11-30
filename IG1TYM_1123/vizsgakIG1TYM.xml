@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="vizsgakIG1TYM.xsl" type="text/xsl"?>
+
+<vizsgak>
+    <vizsga>
+        <kurzus>Optimalizálás</kurzus>
+        <helyszin>XXXVII. Előadó</helyszin>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <oktato>Dr. Körei Attila</oktato>
+        <jegy>4</jegy>
+    </vizsga>
+
+    <vizsga>
+        <kurzus>Automaták és formális nyelvek</kurzus>
+        <helyszin>XX. Előadó</helyszin>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>8:10</tol>
+            <ig>10:10</ig>
+        </idopont>
+        <oktato>Dr. Radaleczki Sándor</oktato>
+        <jegy>5</jegy>
+    </vizsga>
+
+    <vizsga>
+        <kurzus>Számítógép grafika</kurzus>
+        <helyszin>III. Előadó</helyszin>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <oktato>Dr. Juhász Imre</oktato>
+        <jegy>4</jegy>
+    </vizsga>
+
+    <vizsga>
+        <kurzus>Numerikus analízis</kurzus>
+        <helyszin>XXX. Előadó</helyszin>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <oktato>Dr. Karácsony Zsolt</oktato>
+        <jegy>4</jegy>
+    </vizsga>
+
+    <vizsga>
+        <kurzus>Matematikai statisztika</kurzus>
+        <helyszin>XVIII. Előadó</helyszin>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <oktato>Dr. Karácsony Zsolt</oktato>
+        <jegy>5</jegy>
+    </vizsga>
+
+    <vizsga>
+        <kurzus>Párhuzamos algoritmusok</kurzus>
+        <helyszin>XVIII. Előadó</helyszin>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <oktato>Piller Imre</oktato>
+        <jegy>5</jegy>
+    </vizsga>
+</vizsgak>
