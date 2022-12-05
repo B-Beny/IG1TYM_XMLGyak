@@ -1,0 +1,70 @@
+{
+    "vizsgak":[
+            {
+                "kurzus": "Számítógépes Grafika",
+                "helyszin": "III. Előadó",
+                "idopont": {
+                    "nap": "Hétfő",
+                    "tol": "9:00",
+                    "ig": "12:00"
+                },
+                "oktato": "Dr. Juhász Imre",
+                "jegy": 4
+            },
+            {
+                "kurzus": "Numerikus Analízis",
+                "helyszin": "XXX. Előadó",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "10:00",
+                    "ig": "12:00"
+                },
+                "oktato": "Dr. Karácsony Zsolt",
+                "jegy": 4
+            },
+            {
+                "kurzus": "Statisztika",
+                "helyszin": "218",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "10:00",
+                    "ig": "12:00"
+                },
+                "oktato": "Dr. Karácsony Zsolt",
+                "jegy": 5
+            },
+            {
+                "kurzus": "Párhuzamos Algoritmusok",
+                "helyszin": "XXII. Előadó",
+                "idopont": {
+                    "nap": "Csütürtök",
+                    "tol": "14:00",
+                    "ig": "16:00"
+                },
+                "oktato": "Piller Imre",
+                "jegy": 5
+            },
+            {
+                "kurzus": "Automaták es Formális Nyelvek",
+                "helyszin": "XXXII. Előadó",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "8:00",
+                    "ig": "10:00"
+                },
+                "oktato": "Dr. Radaleczki Sándor",
+                "jegy": 5
+            },
+            {
+                "kurzus": "Optimalizálas",
+                "helyszin": "XXXVII. Előadó",
+                "idopont": {
+                    "nap": "Szerda",
+                    "tol": "10:00",
+                    "ig": "12:00"
+                },
+                "oktato": "Dr. Körei Attila",
+                "jegy": 4
+            }
+        ]
+}
